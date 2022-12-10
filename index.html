@@ -18,7 +18,10 @@
       //   { className: "title" },
       //   "Hello, World!"
       // );
-      const element = <h1 className="title">Hello, Wolrd Babel!!</h1>; // -> JSX Babel
+      const text = "Hello, World variable";
+      const titleClassName = "title123";
+      const customH1 = <h1 className={titleClassName}>{text}</h1>; // -> JSX Babel 
+      const element = customH1;
       root.render(element);
     </script>
   </body>
